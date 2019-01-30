@@ -1,0 +1,414 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(font/Montserrat-Regular.ttf);
+  }
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(font/Montserrat-Medium.ttf);
+  }
+
+body
+{
+    background-color: #f5f1e3;
+
+}
+
+ #slika{
+    float: right;
+    padding-right: 5px;
+    image-orientation: from-image;
+}
+
+
+#podatci{
+    width: 250px;
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-size:20px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+#red_tablice_omeni:hover{
+    background-color: #8EAEBD;
+	font-size:25px;
+}
+#podatak{
+    padding-left: 40px;
+    font-family: Montserrat-Regular;
+
+}
+
+#odjeljak_slika{
+    float: left;
+    width: 35%;
+    padding-top: 20px;
+}
+#tablica{
+    width: 65%;
+    display:flex;
+    padding-top: 20px;
+}
+
+#naslov_tablicaprijava
+{
+    font-family: Montserrat-Medium;
+    font-size:22px;
+    text-align: center;
+}    
+.prijava{
+
+    font-family: Montserrat-Regular;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+    width:40%;
+    background-color: #8EAEBD;
+    padding:2px;
+
+}
+.prijava_tablica{
+    margin:0 auto;
+    width: 80%;
+    height: 200px;
+    text-align: left;
+
+}
+.prijavalabela{
+    width:40%;
+    height:30px;
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+    padding-bottom: 8px;
+}
+.prijavapoljeunos{
+    width:60%;
+    height: 30px;
+    padding-bottom: 8px;
+}
+.prijavainput{
+    width:100%;
+    height: 30px;
+    font-size: 16px   
+}
+.prijavadugme{
+    font-family: Montserrat-Medium;
+    background-color: #30415D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float:right;
+    width:60%;
+    font-size: 16px;
+}
+
+.dugme_dodaj
+{
+    font-family: Montserrat-Medium;
+    background-color: #c34342;
+    color:white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+    font-size: 16px;
+}
+.dugme_dodaj:hover
+{
+    background-color:#612121;
+}
+.tablica_izbornamjesta
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+}
+.tablica_izbornamjesta a
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    text-decoration: none;
+    color:#30415D;
+    font-weight: bold;
+}
+.tablica_izbornamjesta a:hover
+{
+    font-family: Montserrat-Regular;
+    font-size: 17x;
+    text-decoration: none;
+    color:#031424;
+}
+.tablica_izbornamjesta tr
+{
+   height: 50px;
+
+}
+.tablica_izbornamjesta th,td
+{    
+    text-align:left;
+    padding-right: 30px;
+}
+
+.strelice
+{
+    display:inline;
+}
+.strelice a
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.strelice img
+{
+    padding-left: 5px;
+}
+
+
+#polje{
+	background-color:grey;
+	text-align:center
+}
+#naslovnica_title{
+	width: 100%;
+    align-content: center;
+    font-family: Montserrat-Regular;
+}
+.prostornaslova{
+    display:block;
+    overflow: visible;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    background-color: #8EAEBD;
+    padding:2px;
+}
+
+
+#zaglavlje{
+    display: block;
+}
+.meni{
+    overflow: hidden;
+    background-color: #35415d;
+    font-family: Montserrat-Medium;
+}
+
+.meni a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.meni a:hover 
+{
+    background-color: #8eaebd;
+    font-weight: bold;
+}
+
+
+
+.meni-desno {
+    float: right;
+
+}
+.meni-desno a{
+    float: right;
+}
+
+.aktivna
+{
+    background-color: #8eaebd;
+    font-weight: bold;
+}
+
+
+#formafiltriranja
+{
+    margin:15px;
+    font-family: Montserrat-Regular;
+}
+
+
+.select
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    height: 30px;
+    width:100%;
+
+
+}
+.select_filter
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+}
+.input_filter
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+}
+#opcija
+{
+    font-family: Montserrat-Regular;
+    font-size:16px;
+}
+#naslov
+{
+    font-family: Montserrat-Regular;
+    background-color: #89bdd3
+}
+
+.pobjednikizbora
+{
+    position: static;
+    text-align:center;
+    width: 50%;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    background-color:#8EAEBD;
+    color:#031424;
+    text-align: left;
+    padding: 10px 10px;
+    margin:auto;
+    
+}
+.pobjednikizbora img
+{
+    border: 1px #031424 groove;
+    border-spacing: 100px;
+
+}
+
+.kandidatiizbora
+{
+    position: absolute;
+    
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    background-color: #b4dbc0;
+    padding:40px;
+
+
+}
+
+.slika_i_ime
+{
+    text-align: center;
+    
+}
+
+.upozorenje
+{
+    font-family: Montserrat-Regular;
+    background-color: #b56357;
+    color:white;
+    text-align:right;
+}
+.uspjesno
+{
+    font-family: Montserrat-Medium;
+    background-color: #b4dbc0;
+    color:black;
+    text-align: center;
+}
+
+.textarea
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    width:100%;
+    height: 100px;
+    resize: none
+
+    
+}
+.input_forma
+{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    height: 25px;
+    width:100%;
+}
+.dugme_forma
+{
+    font-family: Montserrat-Medium;
+    background-color: #30415D;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+    font-size: 16px;
+}
+
+
+.meni_izbornamjesta
+{
+    table-layout: fixed;
+    width:100%;
+}
+#meni_izbornomjesto
+{
+    font-family: Montserrat-Regular;
+    background-color:#c34342;
+    text-align: center;
+    color:white;
+    
+}
+#meni_izbornomjesto:hover
+{
+    background-color: #612121;
+}
+
+.dugme_uredi_obrisi{
+    background-color:#8EAEBD;
+    padding: 10px 7px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 16px;
+    font-family: Montserrat-Medium;
+    height: 40px;
+
+}
+.dugme_uredi_obrisi:hover
+{
+    background-color: #89bdd3;
+}
+
+.dugme_filtriraj_resetiraj
+{
+    border:none;
+    margin-left:3px;
+    height: 30px;
+    color:white;
+    background-color:#c34342;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat-Medium;
+}
+.dugme_filtriraj_resetiraj:hover
+{
+    border:none;
+    margin-left:3px;
+    height: 30px;
+    background-color:#c34342;
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+    font-family: Montserrat-Medium;
+}
+.slikakorisnika
+{
+    background-color: #b4dbc0;
+    text-align:center;
+}
